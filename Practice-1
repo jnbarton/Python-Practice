@@ -3,3 +3,13 @@ goal = raw_input("What is your goal? ")
 achieve = raw_input("How will you achieve your goal? ")
 
 print "Your name is %s, your goal is %s, and you will achieve this goal by: %s" % (name, goal, achieve)
+
+# Trying to work on conditionals & control flow with this switch.
+def thoughtfulness(achieve)
+   if achieve > achieve.len(4):
+      return "There may be success!"
+   else:
+      return "Please provide a thoughtful answer."
+ 
+print thoughtfulness(achieve)
+  
