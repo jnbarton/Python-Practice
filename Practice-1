@@ -1,11 +1,11 @@
-name = raw_input("What is your name? ")
-goal = raw_input("What is your goal? ")
-achieve = raw_input("How will you achieve your goal? ")
+name = input("What is your name? \n")
+goal = input("What is your goal? \n")
+achieve = input("How will you achieve your goal? \n")
 
-print "Your name is %s, your goal is %s, and you will achieve this goal by: %s" % (name, goal, achieve)
+print ("Your name is %s,\nyour goal is %s, \nand you will achieve this goal by %s.\n" % (name, goal, achieve))
 
-# Trying to work on conditionals & control flow with this switch.
+# Try to work on conditionals & control flow with this switch.
 if len(achieve) > 4:
-  print "There may be success!"
+  print ("There may be success! Good luck!")
 else:
-  print "Please provide a thoughtful answer."
+  print ("Please provide a thoughtful answer.")
