@@ -3,16 +3,16 @@ from random import randint
 
 board = []
 
-for x in range(0, 5): #board platform, 5 rows 5 columns
+for x in range(0, 5): # board platform, 5 rows 5 columns
   board.append(["O"] * 5)
 
-def print_board(board): #clean up the board
+def print_board(board): # clean the board
   for row in board:
     print " ".join(row)
 
 print_board(board)
 
-def random_row(board): #random generated ship location
+def random_row(board): # random generated ship location
   return randint(0, len(board) - 1)
 
 def random_col(board):
